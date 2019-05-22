@@ -1,0 +1,184 @@
+
+/* Header section css here  */
+
+.header-fixed {
+  background-color: #fff;
+  height: 100%;
+  color: #ffffff;
+  top: -100px;
+  -webkit-transition: top 0.3s;
+     -moz-transition: top 0.3s;
+      -ms-transition: top 0.3s;
+       -o-transition: top 0.3s;
+          transition: top 0.3s;
+  transition: top 0.3s;
+  -webkit-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+     -moz-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+      -ms-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+       -o-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+          box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+
+}
+.header-fixed .header-limiter {
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-fixed-placeholder{
+  height: 80px;
+  display: none;
+}
+body.fixed .header-fixed {
+  padding: 10px 40px;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+body.fixed .header-fixed-placeholder {
+  display: block;
+}
+
+body.fixed .header-fixed .header-limiter h1 {
+  font-size: 24px;
+  line-height: 30px;
+}
+/* Navigation css here */
+
+.navbar {
+  background-color: #46ACC2;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+}
+.navbar__link {
+  padding-right: 8px;
+}
+.navbar__items--right {
+  margin-left: auto;
+}
+.navbar__link-toggle {
+  display: none;
+}
+nav .nav-menu li {
+  list-style:none;
+  display:inline-block;
+}
+nav .nav-menu li a {
+  font-family: 'Poppins', sans-serif;
+  color: #202428;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 14px;
+  letter-spacing: 0.5px;
+  text-decoration: none; 
+}
+nav .nav-menu li a:hover,
+nav .nav-menu li.active a {
+  color: #05b993;
+}
+
+/* Search section css her */
+
+.form-section input {
+  padding: 12px 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #000;
+  border: 0;
+  letter-spacing: 1px;
+  outline: none;
+  background: #f7f7f7;
+}
+.form-section button {
+  cursor: pointer;
+  padding: 10px 15px;
+  background: #05b993;
+  font-size: 14px;
+  margin-right: 16px;
+  border: none;
+  color: #fff;
+}
+.download{
+  display: table;
+}
+.download a {
+  width: 42px;
+  height: 42px;
+  color: #fff;
+  background: #705ecf;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+       -o-border-radius: 4px;
+          border-radius: 4px;
+}
+
+body.fixed .header-fixed .header-limiter {
+  position: relative;
+  bottom: 24px;
+}
+body.fixed .header-limiter .logo a img {
+  height: 38px;
+  margin-top: 3px;
+}
+body.fixed .header-limiter .form-section input,
+body.fixed .header-limiter .form-section button {
+  padding: 0 15px;
+  height: 33px;
+}
+body.fixed .header-fixed .header-limiter .download a {
+  height: 33px;
+  width: 33px;
+  font-size: 14px;
+}
+
+/* Making the header responsive */
+@media all and (max-width: 600px) {
+
+  .header-fixed {
+    padding: 20px 0;
+    height: 75px;
+  }
+
+  .header-fixed .header-limiter h1 {
+    float: none;
+    margin: -8px 0 10px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1;
+  }
+  body.fixed .header-fixed {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+.navbar__items,
+.navbar {
+    flex-direction: column;
+}
+.navbar__items {
+    display: none;
+}
+.navbar__items--right {
+    margin-left: 0;
+}
+.navbar__toggleshow {
+    display: flex;
+}
+.navbar__link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   } 
+}
