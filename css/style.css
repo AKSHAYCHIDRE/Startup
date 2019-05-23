@@ -1,13 +1,14 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
       -ms-box-sizing: border-box;
        -o-box-sizing: border-box;
           box-sizing: border-box;
 }
-.container{
+.container {
   max-width: 1160px;
   padding: 0 15px;
   margin: 0 auto;
@@ -33,26 +34,22 @@ h1 {
   color: #202428;
   line-height: 1.2;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
 }
 span {
   font-size: 56px;
   color: #05b993;
-  text-transform: capitalize;
-  font-family: 'Poppins', sans-serif; 
+  text-transform: capitalize; 
 }
 h3 {
   font-size: 34px;
   color: #000;
-  font-weight: 600;
-  font-family: 'Poppins', sans-serif; 
+  font-weight: 600; 
 }
 h2 {
   font-size: 40px;
   color: #000;
-  font-weight: 700;
-  font-family: 'Poppins', sans-serif; 
-
+  font-weight: 700; 
+  text-transform: capitalize;
 }
 h4 {
   font-size: 22px;
@@ -60,7 +57,6 @@ h4 {
   margin:24px 0;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
 }
 h5 {
   color: #333;
@@ -69,28 +65,27 @@ h5 {
   letter-spacing: 1px;
   font-weight: 400;
   margin:16px 0;
-  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
 }
 h6 {
   color: #05b993;
   font-size: 15px;
   letter-spacing: 2px;
   margin-bottom: 8px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
+  text-transform: capitalize;
 }
-.par-text{
+.par-text {
   font-size: 14px;
   color: #51585f;
   line-height: 1.9;
   letter-spacing: 1px;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
 }
 .text-center {
   text-align: center;
 }
-.sub-title{
+.sub-title {
   font-size: 16px;
   margin: 20px auto;
   color: #51585f;
@@ -98,9 +93,8 @@ h6 {
   line-height: 1.9;
   letter-spacing: 1px;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
 }
-.button{
+.button {
   text-decoration: none;
   font-size: 15px;
   display: inline-block;
@@ -109,7 +103,6 @@ h6 {
   margin-top: 40px;
   letter-spacing: 1px;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
 }
 .button:hover {
   color: #05b993;
@@ -159,7 +152,7 @@ h6 {
        -o-border-radius: 50%;
           border-radius: 50%;
 }
-.bg-orange{
+.bg-orange {
   background: #FF3A46;
 }
 .bg-green {
@@ -177,14 +170,14 @@ h6 {
   text-align: center;
 }
 .ptns-title {
-  margin-top:24px;
-  font-family: 'Poppins', sans-serif;
+  margin-top: 24px;
   text-transform: uppercase;
   color: #333;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 2px;
 }
+
 /* top scroll bar css here  */
 
 #scroll {
@@ -197,7 +190,9 @@ h6 {
   font-size: 22px;
 }
 
-/* Banner section css start here */
+/*------------------------------------*\
+  Banner section css start here 
+\*------------------------------------*/
 
 .banner-section {
   position: relative;
@@ -217,26 +212,24 @@ h6 {
           border-radius: 4px;
 }
 .banner-section .banner-text a.button:hover {
-  color: ;
   background: #705ecf;
 }
-
 
 /* icon shape css here */
 
 .shap-effect .shape-1 {
-  top: 37%;
   position: absolute;
+  top: 37%;
   right: 2%;
 }
 .shap-effect .shape-2 {
-  top: 12%;
   position: absolute;
+  top: 12%;
   right: 50%;
 }
 .shap-effect .shape-3 {
-  top: 10%;
   position: absolute;
+  top: 10%;
   right: 15%;
 }
 .shap-effect .shape-4 {
@@ -262,7 +255,9 @@ h6 {
           animation: fa-spin 5s infinite linear;
 }
 
-/* What we do section css here */
+/*------------------------------------*\
+  What we do section start here 
+\*------------------------------------*/
 
 .what-we-do {
   padding: 100px 0;
@@ -276,7 +271,9 @@ h6 {
           border-radius: 50%;
 }
 
-/* consultency section css here */
+/*------------------------------------*\
+  Consultency section start here 
+\*------------------------------------*/
 
 .consultency {
   padding: 100px 0;
@@ -284,22 +281,23 @@ h6 {
 .consultency .text-content {
   padding-right: 70px;
 }
-.consultency .text-content .par-text{
-  margin:24px 0;
+.consultency .text-content .par-text {
+  margin: 24px 0;
 }
 .consultency-list li {
   margin-bottom: 10px;
   font-size: 16px;
   color: #000;
   letter-spacing: 1px;
-  font-family: 'Poppins', sans-serif;
   list-style: inside;
 }
 .consultency .image {
   margin-top: 48px;
 }
 
-/* Services section css here */
+/*------------------------------------*\
+  Services section start here 
+\*------------------------------------*/
 
 .services-section {
   background: #f8f9fa;
@@ -312,13 +310,17 @@ h6 {
   padding-top: 40px;
 }
 
-/* Company Facts section css here */
+/*------------------------------------*\
+  Company section start here 
+\*------------------------------------*/
 
 .company-facts {
   padding: 100px 0;
 }
 
-/* Count section css here */
+/*------------------------------------*\
+  Count section start here 
+\*------------------------------------*/
 
 .count-section {
   justify-content: space-between;
@@ -330,47 +332,51 @@ h6 {
   margin: 10px 0; 
 }
 
-/* Partners section css here */
+/*------------------------------------*\
+  Partners section start here 
+\*------------------------------------*/
 
 .partners-section {
   padding: 60px 0;
 }
 .partners {
   margin-top: 60px;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 .partners i {
   font-size: 44px;
   color: #333;
 }
 
-/* Footer section start here */
+/*------------------------------------*\
+  Footer section start here 
+\*------------------------------------*/
 
-#footer  {
+#footer {
   padding: 100px 0 0;
   background: #f8f9fa;
 }
 #footer .subscribe {
-  max-width:800px;
+  max-width: 800px;
   margin: 0 auto;
   padding-bottom: 90px;
 }
 #footer .subscribe h2 {
   margin-top: 10px;
 }
-#footer .subscribe .par-text{
+#footer .subscribe .par-text {
   margin-top: 15px;
 }
-#footer .subscribe form{
+#footer .subscribe form {
   margin-top:50px;
 }
-#footer .subscribe input{
+#footer .subscribe input {
   color: #000;
   width: 100%;
   border: none;
+  outline: none;
   font-size: 15px;
   background: #fff;
-  outline:none;
   padding: 14px 20px;
   letter-spacing: 1px;
   -webkit-border-radius: 0;
@@ -384,7 +390,7 @@ h6 {
                -o-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
                   box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
 }
-#footer .subscribe button{
+#footer .subscribe button {
   background-color: #705ecf;
   cursor: pointer;
   color: #fff;
@@ -402,13 +408,12 @@ h6 {
   border-top: 1px solid #dee2e6;
   align-items: center;
 }
-
-#footer .bottom-footer .social-icons a{
+#footer .bottom-footer .social-icons a {
   color: #705ecf;
   margin: 0 8px;
   font-size: 16px;
 }
-#footer .bottom-footer a{
+#footer .bottom-footer a {
   text-decoration:none;
 }
 #footer .bottom-footer a:hover {
