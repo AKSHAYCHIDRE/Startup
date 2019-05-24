@@ -213,6 +213,11 @@ h6 {
   Banner section css start here 
 \*------------------------------------*/
 
+.banner-content {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
 .banner-section {
   position: relative;
   padding: 70px 0;
@@ -277,12 +282,22 @@ h6 {
           border-radius: 50%;
 }
 
+.card-section {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
 /*------------------------------------*\
   Consultency section start here 
 \*------------------------------------*/
 
 .consultency {
   padding: 100px 0;
+}
+.consultency-grid{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 .consultency .text-content {
   padding-right: 70px;
@@ -307,7 +322,7 @@ h6 {
 
 .services-section {
   background: #f8f9fa;
-  padding: 100px;
+  padding: 100px 0;
 }
 .services-section .sub-title {
   margin:8px auto 40px;
@@ -347,7 +362,9 @@ h6 {
 }
 .partners {
   margin-top: 60px;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 6px;
 }
 .partners i {
   font-size: 44px;
