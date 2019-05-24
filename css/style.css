@@ -9,7 +9,7 @@
           box-sizing: border-box;
 }
 .container {
-  max-width: 1160px;
+  max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -94,17 +94,36 @@ h6 {
   letter-spacing: 1px;
   text-transform: capitalize;
 }
-.button {
+.text-button {
   text-decoration: none;
   font-size: 15px;
   display: inline-block;
   font-weight: 600;
   color: #705ecf;
-  margin-top: 40px;
+  margin-top: 45px;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
+.button {
+  color: #fff; 
+  font-size: 15px;
+  padding: 14px 24px;
+  background: #05b993;
+  font-weight: 400;
+  margin-top: 45px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+       -o-border-radius: 4px;
+          border-radius: 4px;
+}
 .button:hover {
+  background: #705ecf;
+}
+.text-button:hover {
   color: #05b993;
 }
 .col-2 {
@@ -201,19 +220,6 @@ h6 {
 .banner-section .banner-text {
   padding-top: 80px;
 }
-.banner-section .banner-text a.button {
-  color: #fff; 
-  padding: 14px 26px;
-  background: #05b993;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-       -o-border-radius: 4px;
-          border-radius: 4px;
-}
-.banner-section .banner-text a.button:hover {
-  background: #705ecf;
-}
 
 /* icon shape css here */
 
@@ -260,7 +266,7 @@ h6 {
 \*------------------------------------*/
 
 .what-we-do {
-  padding: 100px 0;
+  padding: 120px 0 110px;
   background: #f8f9fa;
 }
 .what-we-do .card img {
