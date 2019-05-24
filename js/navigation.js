@@ -1,6 +1,13 @@
 
 
 
+	/* pre loader js here */
+
+	jQuery(document).ready(function() {
+    	jQuery('#preloader').fadeOut(600);
+	})
+
+
 	/* animation js here */
 
 	$( document ).ready(function() {

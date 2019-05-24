@@ -107,6 +107,7 @@ body.fixed .header-fixed .header-limiter h1 {
   padding: 12px 15px;
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
+  max-width: 210px;
   color: #000;
   border: 0;
   letter-spacing: 1px;
