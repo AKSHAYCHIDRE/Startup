@@ -226,7 +226,7 @@ h6 {
 .banner-content {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 .banner-section {
   position: relative;
@@ -295,7 +295,7 @@ h6 {
 .card-section {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 /*------------------------------------*\
   Consultency section start here 
@@ -307,7 +307,7 @@ h6 {
 .consultency-grid{
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 .consultency .text-content {
   padding-right: 70px;
