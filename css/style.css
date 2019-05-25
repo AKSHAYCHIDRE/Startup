@@ -351,6 +351,11 @@ h6 {
 .company-facts {
   padding: 100px 0;
 }
+.company-facts-grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
 
 /*------------------------------------*\
   Count section start here 
@@ -376,7 +381,7 @@ h6 {
 .partners {
   padding-top: 60px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   grid-gap: 6px;
 }
 .partners i {
@@ -570,6 +575,18 @@ h6 {
     .services-section .services {
       padding-top: 0px;
     }
+    .partners {
+      grid-gap: 16px;
+    }
+    .partners .partners-icon {
+      background: #fff;
+      padding: 20px 10px;
+      -webkit-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+         -moz-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+          -ms-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+           -o-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+              box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+    }
     #footer{
       padding: 50px 0 0px;
     }
@@ -581,4 +598,5 @@ h6 {
     #footer .bottom-footer .copyright {
       text-align: center;
     }
+
 }

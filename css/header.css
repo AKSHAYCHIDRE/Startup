@@ -212,9 +212,10 @@ body.fixed .header-fixed .header-limiter .download a {
   body.fixed .header-fixed .header-limiter {
     bottom: 22px;
     padding: 10px;
+    margin-top: 4px;
   }
   body.fixed .header-fixed {
-    height: 45px;
+    height: 52px;
     padding: 10px 0;
   }
   body.fixed .header-fixed .nav_menu_toggler_icon {
