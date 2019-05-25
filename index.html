@@ -22,30 +22,32 @@
 							<img src="images/logo.png" alt="Startup logo" title="Startup Logo"/>
 						</a>
 					</div>
-				    <div class="navbar__link navbar__link-toggle">
-				    	<i class="fas fa-bars"></i>
+				 	<div class="menu-container">
+				    	<button class="nav_menu_toggler_icon">
+				    		<span class="fa fa-bars"></span>
+				    	</button>
+						<nav class="navbar__items d-flex"><!-- Navigation section here -->
+						    <ul class="nav-menu manu">
+						    	<li class="active"><a href="#" >Home</a></li>
+						    	<li><a href="#">About Us</a></li>
+						    	<li><a href="#">Pricing</a></li>
+						    	<li>
+						    		<a href="#">
+						    			Dropdown <i class="drop_down_icon fa fa-angle-down"></i>
+						    		</a>
+						    		<ul class="sub-menu">
+				               		 	<li><a href="#">Services</a></li>
+				               		 	<li><a href="#">Faq's</a></li>
+				               		 	<li><a href="#">404</a></li>
+				               		 	<li><a href="#">Why Choose Us?</a></li>
+				               			<li><a href="#">Our Team</a></li>
+				               			<li><a href="#">Partners</a></li>
+				               		</ul>
+						    	</li>
+						    	<li><a href="#">Contact Us</a></li>
+							</ul>
+						</nav>
 				    </div>
-					<nav class="navbar__items d-flex"><!-- Navigation section here -->
-					    <ul class="nav-menu">
-					    	<li class="active"><a href="#" >Home</a></li>
-					    	<li><a href="#">About Us</a></li>
-					    	<li><a href="#">Pricing</a></li>
-					    	<li>
-					    		<a href="#">
-					    			Dropdown <i class="drop_down_icon fa fa-angle-down"></i>
-					    		</a>
-					    		<ul class="sub-menu">
-			               		 	<li><a href="#">Services</a></li>
-			               		 	<li><a href="#">Faq's</a></li>
-			               		 	<li><a href="#">404</a></li>
-			               		 	<li><a href="#">Why Choose Us?</a></li>
-			               			<li><a href="#">Our Team</a></li>
-			               			<li><a href="#">Partners</a></li>
-			               		</ul>
-					    	</li>
-					    	<li><a href="#">Contact Us</a></li>
-						</ul>
-					</nav>
 					<div class="search-section"> <!-- Search section  -->
 						<form class="form-section d-flex">
 							<input type="Search" name="Search" placeholder="Search Here...">
@@ -329,6 +331,6 @@
 	</main><!-- Main wrapper section end here  -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-	<script src="js/navigation.js"></script>
+	<script src="js/javascript.js"></script>
 </body>
 </html>
