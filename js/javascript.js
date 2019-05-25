@@ -111,7 +111,7 @@ $(document).ready(function(){
 
 		// Show the fixed header only on larger screen devices
 
-		if(win.width() > 400){
+		if(win.width() > 300){
 
 			// When we scroll more than 150px down, we set the
 			// "fixed" class on the body element.
