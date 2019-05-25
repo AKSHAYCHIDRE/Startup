@@ -8,7 +8,7 @@
        -o-box-sizing: border-box;
           box-sizing: border-box;
 }
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
@@ -17,7 +17,7 @@
 }
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-}
+}*/
 .container {
   max-width: 1140px;
   padding: 0 15px;
@@ -207,6 +207,10 @@ h6 {
   letter-spacing: 2px;
 }
 
+
+[data-aos=fade-left] {
+  transform: translate3d(-10px,0,0);
+}
 /* top scroll bar css here  */
 
 #scroll {
@@ -371,7 +375,7 @@ h6 {
   padding: 60px 0;
 }
 .partners {
-  margin-top: 60px;
+  padding-top: 60px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   grid-gap: 6px;
@@ -531,4 +535,51 @@ h6 {
 }
 .copyright {
   margin: 0 auto;
+}
+
+/*------------------------------------*\
+  Media section css start here 
+\*------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 46px;
+    }
+    h3, h2 {
+      font-size: 30px;
+    }
+    .sub-title, 
+    .par-text {
+      font-size: 14px;
+    }
+    span {
+      font-size: 46px;
+    }
+    .button {
+      margin-top: 25px;
+    }
+    body .main-wrapper section,
+    body .main-wrapper section .partners {
+      padding: 50px 0;
+    }
+    .banner-section .banner-text {
+      padding-top: 0px;
+    }
+    .consultency .text-content {
+      padding-right: 0;
+    }
+    .services-section .services {
+      padding-top: 0px;
+    }
+    #footer{
+      padding: 50px 0 0px;
+    }
+    #footer .bottom-footer {
+      padding: 14px 0;
+      display: block;
+    }
+    #footer .bottom-footer .social-icons, 
+    #footer .bottom-footer .copyright {
+      text-align: center;
+    }
 }

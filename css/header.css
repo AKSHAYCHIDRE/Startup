@@ -206,6 +206,9 @@ body.fixed .header-fixed .header-limiter .download a {
   .header-fixed .header-limiter {
     padding: 12px 0;
   }
+  .menu-container ul {
+    padding-top: 15px;
+  }
   body.fixed .header-fixed .header-limiter {
     bottom: 22px;
     padding: 10px;
@@ -243,7 +246,7 @@ body.fixed .header-fixed .header-limiter .download a {
       outline: none;
   }
   .nav_menu_toggler_icon span {
-    font-size: 32px;
+    font-size: 25px;
   }
   .menu-container .manu{
     display: none;
