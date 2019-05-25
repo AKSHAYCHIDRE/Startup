@@ -8,7 +8,7 @@
        -o-box-sizing: border-box;
           box-sizing: border-box;
 }
-/*::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
@@ -17,7 +17,7 @@
 }
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-}*/
+}
 .container {
   max-width: 1140px;
   padding: 0 15px;
@@ -214,7 +214,6 @@ h6 {
 /* top scroll bar css here  */
 
 #scroll {
-  display: none;
   position: fixed;
   cursor: pointer;
   bottom: 2.5%;
