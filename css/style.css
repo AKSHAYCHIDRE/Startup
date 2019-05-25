@@ -64,7 +64,7 @@ h2 {
 h4 {
   font-size: 22px;
   color: #000;
-  margin:24px 0;
+  margin: 24px 0;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -117,10 +117,10 @@ h6 {
 .button {
   color: #fff; 
   font-size: 15px;
+  margin-top: 45px;
+  font-weight: 400;
   padding: 14px 24px;
   background: #05b993;
-  font-weight: 400;
-  margin-top: 45px;
   letter-spacing: 1px;
   display: inline-block;
   text-decoration: none;
@@ -136,30 +136,10 @@ h6 {
 .text-button:hover {
   color: #05b993;
 }
-.col-2 {
-  position: relative;
-  padding: 0 15px;
-  max-width: 16.666667%;
-}
 .col-4 {
   position: relative;
   padding: 0 15px;
   max-width: 33.333333%;
-}
-.col-5 {
-  position: relative;
-  padding: 0 15px;
-  width: 41.666667%;
-}
-.col-7 {
-  position: relative;
-  padding: 0 15px;
-  width: 55.333333%;
-}
-.col-6 {
-  position: relative;
-  padding: 0 15px;
-  max-width: 50%;
 }
 .card .about-card {
   padding: 60px;
@@ -198,7 +178,7 @@ h6 {
   vertical-align: middle;
   text-align: center;
 }
-.ptns-title {
+.part-title {
   margin-top: 24px;
   text-transform: uppercase;
   color: #333;
@@ -207,10 +187,6 @@ h6 {
   letter-spacing: 2px;
 }
 
-
-[data-aos=fade-left] {
-  transform: translate3d(-10px,0,0);
-}
 /* top scroll bar css here  */
 
 #scroll {
@@ -241,37 +217,34 @@ h6 {
 
 /* icon shape css here */
 
-.shap-effect .shape-1 {
+.absolute {
   position: absolute;
+}
+.shap-effect .shape-1 {
   top: 37%;
   right: 2%;
 }
 .shap-effect .shape-2 {
-  position: absolute;
   top: 12%;
   right: 50%;
 }
 .shap-effect .shape-3 {
-  position: absolute;
   top: 10%;
   right: 15%;
 }
 .shap-effect .shape-4 {
-  position: absolute;
   top: 30%;
   left: 4%;
 }
 .shap-effect .shape-5 {
-  position: absolute;
   bottom: 14%;
   right: 7%;
 }
 .shap-effect .shape-6 {
-  position: absolute;
   bottom: 18%;
   left: 23%;
 }
-.round-shap {
+.roteted-shap {
   -webkit-animation: fa-spin 5s infinite linear;
      -moz-animation: fa-spin 5s infinite linear;
       -ms-animation: fa-spin 5s infinite linear;
@@ -294,12 +267,12 @@ h6 {
        -o-border-radius: 50%;
           border-radius: 50%;
 }
-
 .card-section {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
+
 /*------------------------------------*\
   Consultency section start here 
 \*------------------------------------*/
@@ -362,7 +335,11 @@ h6 {
 \*------------------------------------*/
 
 .count-section {
-  justify-content: space-between;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  text-align: center;
+  grid-row-gap: 20px;
   margin-top: 30px;
 }
 .count-section h4 {
@@ -389,8 +366,82 @@ h6 {
   color: #333;
 }
 
-/* loader css here */
 
+/*------------------------------------*\
+  Footer section start here 
+\*------------------------------------*/
+
+#footer {
+  background: #f8f9fa;
+}
+#footer .subscribe {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#footer .subscribe h2 {
+  margin-top: 10px;
+}
+#footer .subscribe .par-text {
+  margin-top: 15px;
+}
+#footer .subscribe form {
+  margin-top:50px;
+}
+#footer .subscribe input {
+  color: #000;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: #fff;
+  padding: 14px 20px;
+  letter-spacing: 1px;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+      -ms-border-radius: 0;
+       -o-border-radius: 0;
+          border-radius: 0;
+          -webkit-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+             -moz-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+              -ms-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+               -o-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+                  box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+}
+#footer .subscribe button {
+  background-color: #705ecf;
+  cursor: pointer;
+  color: #fff;
+  width: 50%;
+  border: none;
+  font-size: 15px;
+  padding: 14px 20px;
+  letter-spacing: 1px;
+}
+#footer .subscribe button:hover {
+  background-color: #05b993;
+}
+#footer .bottom-footer {
+  padding: 24px 15px;
+  border-top: 1px solid #dee2e6;
+  align-items: center;
+}
+#footer .bottom-footer .social-icons a {
+  color: #705ecf;
+  margin: 0 8px;
+  font-size: 16px;
+}
+#footer .bottom-footer a {
+  text-decoration:none;
+}
+#footer .bottom-footer a:hover {
+  color: #05b993;
+}
+.copyright {
+  margin: 0 auto;
+}
+
+/* loader css here */
 
 #preloader {
     position: fixed;
@@ -467,81 +518,6 @@ h6 {
 }
 
 /*------------------------------------*\
-  Footer section start here 
-\*------------------------------------*/
-
-#footer {
-  padding: 100px 0 0;
-  background: #f8f9fa;
-}
-#footer .subscribe {
-  max-width: 800px;
-  margin: 0 auto;
-  padding-bottom: 90px;
-}
-#footer .subscribe h2 {
-  margin-top: 10px;
-}
-#footer .subscribe .par-text {
-  margin-top: 15px;
-}
-#footer .subscribe form {
-  margin-top:50px;
-}
-#footer .subscribe input {
-  color: #000;
-  width: 100%;
-  border: none;
-  outline: none;
-  font-size: 15px;
-  background: #fff;
-  padding: 14px 20px;
-  letter-spacing: 1px;
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-      -ms-border-radius: 0;
-       -o-border-radius: 0;
-          border-radius: 0;
-          -webkit-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
-             -moz-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
-              -ms-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
-               -o-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
-                  box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
-}
-#footer .subscribe button {
-  background-color: #705ecf;
-  cursor: pointer;
-  color: #fff;
-  width: 50%;
-  border: none;
-  font-size: 15px;
-  padding: 14px 20px;
-  letter-spacing: 1px;
-}
-#footer .subscribe button:hover {
-  background-color: #05b993;
-}
-#footer .bottom-footer {
-  padding: 24px 15px;
-  border-top: 1px solid #dee2e6;
-  align-items: center;
-}
-#footer .bottom-footer .social-icons a {
-  color: #705ecf;
-  margin: 0 8px;
-  font-size: 16px;
-}
-#footer .bottom-footer a {
-  text-decoration:none;
-}
-#footer .bottom-footer a:hover {
-  color: #05b993;
-}
-.copyright {
-  margin: 0 auto;
-}
-
-/*------------------------------------*\
   Media section css start here 
 \*------------------------------------*/
 
@@ -566,14 +542,26 @@ h6 {
     body .main-wrapper section .partners {
       padding: 50px 0;
     }
-    .banner-section .banner-text {
+    .banner-section .banner-text,
+    .services-section .services {
       padding-top: 0px;
     }
     .consultency .text-content {
       padding-right: 0;
     }
-    .services-section .services {
-      padding-top: 0px;
+    .count-section {
+      grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
+      grid-column-gap: 20px;
+    }
+    .count-section .count-section-part {
+        background: #fff;
+        padding: 20px 10px;
+        width: 100%;
+        -webkit-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+           -moz-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+            -ms-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+             -o-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+                box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
     }
     .partners {
       grid-gap: 16px;
@@ -587,16 +575,21 @@ h6 {
            -o-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
               box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
     }
-    #footer{
-      padding: 50px 0 0px;
+    #footer .subscribe {
+      padding: 50px 0;
     }
     #footer .bottom-footer {
       padding: 14px 0;
       display: block;
     }
+    #footer .bottom-footer .par-text {
+      font-size: 12px;
+    }
+    #footer .bottom-footer .social-icons {
+      margin-bottom: 8px;
+    }
     #footer .bottom-footer .social-icons, 
     #footer .bottom-footer .copyright {
       text-align: center;
     }
-
 }
