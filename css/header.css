@@ -100,7 +100,7 @@ body.fixed .header-fixed .header-limiter h1 {
   display: block;
   margin: 10px 0;
 }
-.navbar__items .sub-menu li a {
+header .main-wrapper .navbar__items .sub-menu li a {
   color: #202428;
   font-size:15px;
 }
