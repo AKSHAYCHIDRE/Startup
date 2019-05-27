@@ -263,7 +263,6 @@ body.fixed .header-fixed .header-limiter .download a {
   .navbar__items .nav-menu li a {
     font-size: 14px;
   }
-<<<<<<< HEAD
   .navbar__items .sub-menu{
     position: relative;
     width: 80%;
@@ -273,6 +272,4 @@ body.fixed .header-fixed .header-limiter .download a {
     margin: 7px 0;
     padding: 0;
   }
-=======
->>>>>>> 90855013612249a4a0f6c36a8e7f1bfc2402d7f4
 }
