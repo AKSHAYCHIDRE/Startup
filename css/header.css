@@ -182,7 +182,6 @@ body.fixed .header-fixed .header-limiter .download a {
   }
 }
 
-
 @media only screen and (max-width: 768px) {
   .navbar__items,
   .navbar {
@@ -264,5 +263,13 @@ body.fixed .header-fixed .header-limiter .download a {
   .navbar__items .nav-menu li a {
     font-size: 14px;
   }
-  
+  .navbar__items .sub-menu{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;    
+  }
+  .navbar__items .sub-menu li{
+    margin: 7px 0;
+    padding: 0;
+  }
 }
