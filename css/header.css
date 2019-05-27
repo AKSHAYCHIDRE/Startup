@@ -101,7 +101,7 @@ body.fixed .header-fixed .header-limiter h1 {
   margin: 10px 0;
 }
 .navbar__items .sub-menu li a {
-  color: #fff;
+  color: #202428;
   font-size:15px;
 }
 .navbar__items .nav-menu li a:hover,
@@ -241,6 +241,15 @@ body.fixed .header-fixed .header-limiter .download a {
     -o-box-shadow: 0.33333px 0 17px rgba(87, 87, 87, 0.1);
     box-shadow: 0.33333px 0 17px rgba(87, 87, 87, 0.1);
   }
+  body.fixed .header-fixed .header-limiter .menu-container ul .sub-menu {
+    background-color: #000;
+  }
+  body.fixed .header-fixed .header-limiter .menu-container ul .sub-menu a {
+    color: #fff;
+  }
+  body.fixed .header-fixed .header-limiter .menu-container ul .sub-menu a:hover {
+    color: #05b993;
+  }
   .nav_menu_toggler_icon {
       display: block;
       outline: none;
@@ -262,6 +271,7 @@ body.fixed .header-fixed .header-limiter .download a {
   }
   .navbar__items .nav-menu li a {
     font-size: 14px;
+    color: ;
   }
   .navbar__items .sub-menu{
     position: relative;
