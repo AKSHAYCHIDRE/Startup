@@ -102,7 +102,7 @@ body.fixed .header-fixed .header-limiter h1 {
 }
 header .main-wrapper .navbar__items .sub-menu li a {
   color: #202428;
-  font-size:15px;
+  font-size:15px; 
 }
 .navbar__items .nav-menu li a:hover,
 .navbar__items .nav-menu li.active a {
@@ -244,7 +244,7 @@ body.fixed .header-fixed .header-limiter .download a {
   body.fixed .header-fixed .header-limiter .menu-container ul .sub-menu {
     background-color: #000;
   }
-  body.fixed .header-fixed .header-limiter .menu-container ul .sub-menu a {
+  body.fixed .header-limiter .menu-container ul .sub-menu a {
     color: #fff;
   }
   body.fixed .header-fixed .header-limiter .menu-container ul .sub-menu a:hover {
@@ -269,9 +269,9 @@ body.fixed .header-fixed .header-limiter .download a {
     padding: 5px 0;
     text-align: center;
   }
-  .navbar__items .nav-menu li a {
+  .menu-container ul .sub-menu a {
     font-size: 14px;
-    color: ;
+    color: #fff;
   }
   .navbar__items .sub-menu{
     position: relative;
